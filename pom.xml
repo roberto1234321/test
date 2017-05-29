@@ -3,7 +3,7 @@
     <groupId>com.robsie</groupId>
     <artifactId>snake</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0a</version>
+    <version>1.0.0b</version>
     <name>Snake</name>
     <url>http://maven.apache.org</url>
     <build>
