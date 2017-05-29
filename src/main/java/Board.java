@@ -68,18 +68,15 @@ public class Board extends JPanel implements ActionListener {
 
     private void initGame() {
 
-        dots = 6;
+        dots = 3;
 
         for (int z = 0; z < dots; z++) {
-            x[z] = (dots  -  z) * 10;
-            y[z] = 1;
-            
-            System.out.println(x[z] + " - " + y[z]);
+            x[z] = 50 - z * 10;
+            y[z] = 50;
         }
-         
 
         locateApple();
- 
+
         timer = new Timer(DELAY, this);
         timer.start();
     }
